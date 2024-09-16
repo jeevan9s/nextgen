@@ -1,17 +1,16 @@
-/* Import Playfair Display font */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 
-/* Tailwind CSS directives */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Global styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Playfair Display", serif; /* Apply Playfair Display font to all elements */
+  font-family: "Playfair Display", serif;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
@@ -23,7 +22,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-/* Dark mode custom properties */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -32,9 +30,8 @@
   }
 }
 
-/* Global styles */
 body {
-  font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+  font-family: 'Poppins', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
